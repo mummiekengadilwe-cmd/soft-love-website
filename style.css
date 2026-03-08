@@ -86,3 +86,104 @@ footer {
         width: 90%;
     }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.wow-table-section{
+padding:50px;
+background:linear-gradient(135deg,#ffe6f2,#f5f0ff);
+text-align:center;
+font-family: 'Segoe UI', sans-serif;
+}
+
+.wow-title{
+font-size:32px;
+color:#c2185b;
+margin-bottom:25px;
+letter-spacing:1px;
+}
+
+.wow-table{
+width:85%;
+margin:auto;
+border-collapse:collapse;
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.wow-table thead{
+background:linear-gradient(90deg,#ff4fa3,#a64dff);
+color:white;
+}
+
+.wow-table th{
+padding:16px;
+font-size:18px;
+}
+
+.wow-table td{
+padding:15px;
+border-bottom:1px solid #eee;
+transition:all 0.3s ease;
+}
+
+.wow-table tbody tr:nth-child(even){
+background:#fff4fb;
+}
+
+.wow-table tbody tr:hover{
+background:linear-gradient(90deg,#ffe0f0,#efe6ff);
+transform:scale(1.02);
+cursor:pointer;
+}
+
+.contact-section{
+  text-align: center;
+  padding: 40px;
+  background-color: #fff0f6;
+  font-family: Arial, sans-serif;
+}
+
+.contact-section h2{
+  color: #d63384;
+}
+
+.contact-form{
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label{
+  text-align: left;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-form button{
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background-color: #ff6fa5;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-form button:hover{
+  background-color: #e0558d;
+}
